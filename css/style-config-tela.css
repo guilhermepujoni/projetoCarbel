@@ -172,10 +172,40 @@
         bottom: 8%;
     }
 
+    
+    
+    /* Dimensões da box */
     #formulario-contato {
-        display: none;
+        background-color: #f1f1f1f1;
+        width: 80px;
+        height: 22px;
+        padding: 10px 6px;
+        margin: 230px 0 0 78%;
+        box-shadow: 1px 0px 1px 1px rgba(165, 165, 165, 0.671);}
+    #formulario-contato:hover {
+        background-color: rgb(128, 128, 128);
+        cursor: pointer;
     }
 
+
+    /* Titulo da box */
+    #formulario-contato #titulo-form {
+        width: 80px;
+        margin-bottom: 15px;
+    }
+
+    #formulario-contato form .input-form {
+        display: none;
+    }
+    #formulario-contato form .div-select {
+        display: none;
+    }
+    #formulario-contato form #input-submit {
+        display: none;
+    }
+    
+    
+    /* Secao 1 - Correçoes para a nova dimensão*/
     #secao-info-one h2{
         width: 94%;
         text-align: center;
@@ -267,7 +297,12 @@
         left: 3%;
         bottom: 6%;
     }
-
+    #formulario-contato {
+        margin: 230px 0 0 75%;
+    }
+    
+    
+    /* Secao 2 - Correçoes para a nova dimensão*/
     #secao-info-two {
         margin-top: 20px;
         height: 260px;
@@ -386,6 +421,7 @@
     }
 
 
+    
     #formulario-contato {
         display: inline-block;
         width: 74%;
@@ -393,15 +429,16 @@
         position: relative;
         padding: 20px 28px;
         margin: 290px 0 40px 5%;
-        box-shadow: 1px 0px 1px 1px rgba(165, 165, 165, 0.144);}
-    
+        box-shadow: 1px 0px 1px 1px rgba(165, 165, 165, 0.144);
+    }
     /* Titulo da box */
     #formulario-contato #titulo-form {
         width: 140px;
     }
     
     /* Configuração dos inputs */
-    #formulario-contato form .input-form { 
+    #formulario-contato form .input-form {
+        display: block; 
         width: 90%;
         height: 36px;
         margin-bottom: 5px;
@@ -412,6 +449,7 @@
     /* Manipulação das DIVS que envolvem os selects, para alterar as config originais  */
     
     #formulario-contato form .div-select {
+        display: block;
         width: 90%;
         height: 36px;
         margin-bottom: 5px;;
@@ -427,10 +465,12 @@
     /* Input submit do formulário */
     
     #formulario-contato form #input-submit {
+        display: block;
         width: 105%;
         height: 46px;
     }
     
+
 
     #secao-info-one {
         margin-top: 470px;
