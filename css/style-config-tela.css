@@ -1,0 +1,583 @@
+@media(max-width: 1036px) {
+    header section.main-card {
+        background-position: 28%;
+    }
+
+    #secao-info-one #imagens-laterais {
+        width: 600px;
+        margin: 28px 0 0 22px;
+        float: left;
+    }
+    #secao-info-one #imagens-laterais img {
+        width: 30%;
+        border: 1px solid #dfdfdf;
+        padding: 2px;
+        
+    }
+    #secao-info-one #imagem-central {
+        margin: 40px 0 20px 34px;
+        width: 600px;
+        float: left;
+    }
+    #secao-info-one #text {
+        font-size: 14px;
+        margin-top: 320px;
+        width: 74%;
+    }
+ 
+
+    #secao-footer-one #secao-boxes-foot {
+        margin-left: 12%;
+    }
+    #secao-footer-one #text {
+        margin-left: 22%;
+    }
+    #secao-footer-one #links-footer {
+        margin: 20px 32%;
+    }
+    #secao-footer-one #links-footer a img{
+        width: 9%;
+    }
+
+    #secao-footer-two #logo-footer {
+        margin-left: 16%;
+    }
+}
+
+
+
+@media(max-width: 940px) {
+    header section.main-card {
+       background-position: 14%;
+    }
+
+
+    #secao-info-one h2{ font-size: 20px;}
+    #secao-info-one #imagens-laterais { width: 74%;}
+    #secao-info-one #imagem-central { width: 70%;}
+
+    #secao-info-two #box { width: 60%;}
+    #secao-info-two #titulo-text { font-size: 22px;}
+    #secao-info-two #corpo-text { margin-top: 6px;}     
+}
+
+
+
+
+@media(max-width: 850px) {
+    section.container-one { margin: 0 4% 0 4%;}
+    section.container-two {margin: 0 1% 0 1%;}
+
+
+    header section.main-card {
+        background-position: 12%;
+        height: 310px;
+    }
+
+    #formulario-contato {
+        width: 22.5%;
+        height: 262px;
+        padding: 20px 12px 2px 12px;
+        margin: 64px 0 0 72.6%;
+    }
+    #formulario-contato form .input-form {
+        width: 82%;
+        height: 24px;
+    }
+    #formulario-contato form .div-select {
+        width: 82%;
+        height: 24px;
+    }
+    #formulario-contato form .select-form {
+        height: 24px;
+        width: 100%;
+    }
+    #formulario-contato form #input-submit {
+        width: 98%;
+        font-size: 12px;
+    }
+
+
+    #secao-info-one h2{
+        font-size: 19px;}
+    #secao-info-one #imagens-laterais {
+        width: 72%;}
+    #secao-info-one #text {
+        font-size: 12px;
+        margin-top: 320px;
+        width: 72%;
+    }
+
+
+    #secao-info-two #box {
+        width: 60%;
+        top: 240px;
+        left: 70px;
+    }
+
+    #secao-info-two #titulo-text {
+        font-size: 20px;
+    }
+    #secao-info-two #corpo-text {
+        font-size: 14px;
+    }    
+
+    #secao-info-three {
+        width: 70%;
+    }
+  
+
+    #secao-footer-one #secao-boxes-foot {
+        margin-left: 6%;
+    }
+    #secao-footer-one #secao-boxes-foot .box-foot {
+        width: 26%;
+        height: 64px;
+        margin: 19px 14px;
+        
+    }
+    #secao-footer-one #text {
+        margin-left: 15%;
+        font-size: 18px;
+    }
+    #secao-footer-one #links-footer {
+        margin: 20px 28%;
+    }
+    #secao-footer-one #links-footer a img{
+        width: 8%;
+    }
+
+    #secao-footer-two #logo-footer {
+        margin-left: 12%;
+    }
+    #secao-footer-two p {
+        margin-left: 40px;
+        
+    }
+}
+
+
+
+@media(max-width: 670px) {
+    header section.main-card {
+        background: url(../img/cardprincipal.png) no-repeat ;
+        background-position: 18%;
+        background-size: cover;
+        height: 220px;
+    }
+    section.main-card img#selo-card {
+        width: 70px;
+        position: absolute;
+        left: 6%;
+        bottom: 8%;
+    }
+
+    #formulario-contato {
+        display: none;
+    }
+
+    #secao-info-one h2{
+        width: 94%;
+        text-align: center;
+        margin-left: 1%;}
+    #secao-info-one #imagens-laterais {
+        margin: 28px 0 0 16px;
+        width: 90%;}
+    #secao-info-one #imagem-central {
+        margin: 40px 0 20px 28px;
+        width: 88%;}
+    #secao-info-one #text {
+        font-size: 13px;
+        margin: 300px 0 0 15px;
+        width: 94%;
+    }
+
+    #secao-info-two #box {
+        left: 30px;
+        width: 80%;
+        top: 262px;
+    }
+
+    #secao-info-three {
+        margin-left: 20px;
+        width: 90%;
+    }
+  
+    #secao-info-four {
+        margin-left: 8px;
+        margin-top: 35px;
+        width: 94%;}
+
+    
+    #secao-footer-one #secao-boxes-foot {
+        margin-left: 4%;
+    }
+    #secao-footer-one #secao-boxes-foot .box-foot {
+        width: 46%;
+        height: 62px;
+        margin: 19px 3% 19px 0;
+    }
+    #secao-boxes-foot .box-foot #img-box-one {
+        width: 82%;
+        margin: 12px 0 0 20px;
+    }
+    #secao-boxes-foot .box-foot #img-box-two {
+        width: 64%;
+        margin: 12px 0 0 52px;
+    }
+    #secao-footer-one #text {
+        margin-left: 20%;
+        font-size: 18px;
+    }
+    #secao-footer-one #links-footer {
+        margin: 20px 34%;
+    }
+    #secao-footer-one #links-footer a img{
+        width: 18%;
+    }
+}
+
+
+
+
+@media(max-width: 428px) { 
+    nav section .nav-buttons {
+        margin: none;
+        width: 28%;
+        padding: none;
+    }
+    section #home-button { float: left;}
+    section #locate-button{float: left;}
+    section #envelope-button{float: left; padding: 6px;}
+
+    section .nav-buttons span { display: none;}
+
+    header .container-one #logo-header {
+        width: 130px;}
+    header .container-one #contato-header {
+        margin-top: 17px;
+        width: 130px;}
+
+    header section.main-card {
+        background-position: 16%;
+        height: 180px;
+    }
+    section.main-card img#selo-card {
+        width: 55px;
+        left: 3%;
+        bottom: 6%;
+    }
+
+    #secao-info-two {
+        margin-top: 20px;
+        height: 260px;
+    }
+    #secao-info-two #box {
+        top: 180px;
+        left:15px;
+        width: 94%;
+    }
+    #secao-info-two #titulo-text { font-size: 17px;}
+    #secao-info-two #corpo-text {
+        margin-top: 5px;
+        font-size: 11px;
+    }
+
+
+    #secao-info-three {
+        margin: 26px 0 0 40px ;
+        width: 70%;
+        padding: 5%;
+    }
+    #secao-info-three .boxes {
+        margin: 10px 0 0 0;
+        width: 100%;
+        float: none;
+        color: rgb(43, 43, 43);
+    }
+    #secao-info-three .boxes img {
+        width: 97%;
+        border: 1px solid #c9c9c9;
+        padding: 1%;
+    }
+
+
+    #secao-info-four { margin: 30px 30px; width: 90%;}
+    #secao-info-four .titulo-text {font-size: 24px;}
+    #secao-info-four .sub-titulo-text {  margin-top: 5px; font-size: 15px;}
+    
+    #secao-info-four .cards {
+        height: 310px;
+        width: 75%;
+        float: none;
+        margin: 12px 0 0 20px;
+        border-radius: 3px;
+    }
+    #secao-info-four .cards img { width: 82%;}
+    #secao-info-four .cards .corpo-text { margin-top: 3px;}
+    #secao-info-four .cards button {
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 3%;
+    }
+
+
+    #secao-footer-one #text {
+        margin-left: 7%;
+        font-size: 19px;
+    }
+    #secao-footer-two #logo-footer {
+        width: 92px;
+        margin: 22px 0 0 6%;
+    }
+    #secao-footer-two p {
+        margin: 30px 0 0 10px;
+    }
+}
+
+
+
+
+@media(max-width: 375px) { 
+
+    section.container-one { margin: 0 4% 0 4%;}
+    section.container-two {margin: 0;}
+
+    section #home-button img {width: 28px;}
+
+    section .nav-buttons .icons-nav { width: 26px;}
+    section .nav-buttons #locate-icon { width: 18px;}
+
+
+    header .container-one {
+        text-align: center;
+    }
+    header .container-one #logo-header {
+        display: inline-block;
+        float: none;
+        margin: 25px 0;
+        width: 180px;}
+    .container-one #logo-header img { width: 100%;}
+    
+    header .container-one #contato-header {
+        display: inline-block;
+        float: none;
+        margin-top: 12px;
+        width: 166px;}
+    .container-one #contato-header img { width: 100%;}
+
+
+    header section.main-card {
+        background: url(../img/card-principal-secundario.png) no-repeat ;
+        background-position: 18%;
+        background-size: cover;
+        height: 220px;
+    }
+    section.main-card img#selo-card {
+        visibility: hidden;
+    }
+    section.main-card #div-selo {
+        background: url(../img/base-card-principal-secundario.png) no-repeat center center;
+        position: absolute;
+        width: 90%;
+        height: 100px;
+        top: 190px;
+        left: 16px;
+    }
+
+
+    #formulario-contato {
+        display: inline-block;
+        width: 74%;
+        height: 320px;
+        position: relative;
+        padding: 20px 28px;
+        margin: 290px 0 40px 5%;
+        box-shadow: 1px 0px 1px 1px rgba(165, 165, 165, 0.144);}
+    
+    /* Titulo da box */
+    #formulario-contato #titulo-form {
+        width: 140px;
+    }
+    
+    /* Configuração dos inputs */
+    #formulario-contato form .input-form { 
+        width: 90%;
+        height: 36px;
+        margin-bottom: 5px;
+        padding: 0 0 0 36px;
+    }
+    
+    /* Configuração dos selects */
+    /* Manipulação das DIVS que envolvem os selects, para alterar as config originais  */
+    
+    #formulario-contato form .div-select {
+        width: 90%;
+        height: 36px;
+        margin-bottom: 5px;;
+        padding: 0 0 0 36px;
+        }
+    /* Configuração INTERNAS dos selects */
+    #formulario-contato form .select-form {
+        background: url(../img/seta.png) no-repeat right 10px;
+        height: 36px;
+        width: 97%;
+    }
+    
+    /* Input submit do formulário */
+    
+    #formulario-contato form #input-submit {
+        width: 105%;
+        height: 46px;
+    }
+    
+
+    #secao-info-one {
+        margin-top: 470px;
+    }
+    #secao-info-one h2{ 
+        width: 86%;
+        margin-left: 18px;}
+    #secao-info-one #imagens-laterais {
+        display: none;}
+    #secao-info-one #imagem-central {
+        margin: 40px 0 20px 28px;
+        width: 90%;}
+    #secao-info-one #text {
+        clear: both;
+        margin-top: 200px;
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    #secao-info-two {
+        margin-top: 50px;
+        background: url(../img/carro-interno-mobile.png) no-repeat ;
+        height: 415px;
+        text-align: center;}
+    
+    #secao-info-two #box {
+        top: 285px;
+        left: 8%;
+        width: 295px;
+    }
+    #secao-info-two #titulo-text {
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
+        font-style: italic;
+        color: white;
+    }
+    #secao-info-two #corpo-text {
+        margin-top: 10px;
+        color: white;
+    }
+
+    
+    #secao-info-three {
+        margin: 26px 0 0 0;
+        width: 100%;
+        bottom: 40px;
+        padding: 0;
+        text-align: center;
+    }
+    #secao-info-three .boxes {
+        margin: 10px 0 0 0;
+        display: inline-block;
+        width: 90%;
+        float: none;
+        color: rgb(43, 43, 43);
+    }
+    #secao-info-three .boxes img {
+        width: 100%;
+        border: 1px solid #c9c9c9;
+        padding: 3px;
+    }
+    
+    #secao-info-three .boxes .titulo-text { font-size: 18px;}
+    #secao-info-three .boxes .corpo-text { font-size: 12px;}
+    #secao-info-three #secao-three-box-2, #secao-info-three #secao-three-box-3 {
+        display: none;
+    }
+
+
+    /* Secao 4 da página -- Modicado as dimensões e posicionamentos do objetos*/
+    #secao-info-four { 
+        margin: 30px 20px; 
+        width: 90%;text-align: center;
+        
+    }
+    #secao-info-four .titulo-text {
+        font-size: 21px;
+        width: 80%;
+        margin: 0 auto;}
+    #secao-info-four .sub-titulo-text {  
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5px; 
+        font-size: 15px;}
+    
+    #secao-info-four .cards {
+        padding: 0;
+        height: 196px;
+        width: 98%;
+        float: none;
+        margin: 12px 0 0 0;
+        border-radius: 3px;
+        text-align: left;
+        background: url(../img/keyboard-right-arrow-button.png) no-repeat center right;
+        background-position: 94%;
+    }
+    #secao-info-four .cards img { 
+        margin-left: 5%;
+        width: 68%;}
+    #secao-info-four .cards .corpo-text { display: none;}
+    #secao-info-four .cards button {
+        background-color: white;
+        box-shadow: 0;
+        margin-top: 15px;
+        font-size: 12px;
+        padding: 3%;
+    }
+    #secao-info-four #secao-four-card-2, #secao-four-card-3 {
+        display: none;
+    }
+
+
+    /* Footer da página -- Modicado as dimensões e posicionamentos do objetos*/
+    #secao-footer-one {
+        padding-top: 10px;
+        margin-top: 90px;
+        height: 340px;
+        text-align: center;
+        
+    }
+    #secao-footer-one #secao-boxes-foot {
+        float: none;
+        margin-left: 8%;
+    }
+    #secao-footer-one #secao-boxes-foot .box-foot {
+        float: none;
+        width: 270px;
+        height: 80px;
+        margin: 10px 14px;}
+    #secao-boxes-foot .box-foot #img-box-one { width: 86%; margin: 20px 0 0 6px;}
+    #secao-boxes-foot .box-foot #img-box-two { width: 72%; margin: 20px 0 0 15px;}
+    
+    #secao-footer-one #text {
+        width: 60%;
+        margin: 25px 0 25px 18%;
+        font-size: 17px;
+    }
+    
+    #secao-footer-one #links-footer {
+        margin: 20px 20%;
+        width: 200px;
+    }
+    #secao-footer-one #links-footer a { margin-left: 15px;}
+    
+    #secao-footer-one #links-footer a img{ width: 23%;}
+    #secao-footer-two #logo-footer {width: 120px; margin: 22px 0 0 36%;}
+    #secao-footer-two p { margin: 30px 2% 0 18%;}
+}
